@@ -1,12 +1,19 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <Button bg=" bg-gray-400">Apasa-l</Button>
-    <Button id="ex">Apasa-l1</Button>
-    <Button bg=" bg-gray-500">Apasa-l2</Button>
-    <Button>
-      <template #after>nu apasa</template>
-      <template #default> Apasa-l3 </template>
-    </Button>
+  <div class="bg-sky-50">
+    <Hero>
+      <template #Title>Bun venit!</template>
+      <template #Description
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        autem ab aspernatur nemo voluptate reprehenderit totam adipisci aliquid
+        dolore omnis? Placeat beatae laborum quaerat hic cupiditate illum
+        voluptas veniam nobis.
+      </template>
+      <template #ButtonName> Bun venit!</template>
+    </Hero>
+    <div>
+      <h2 class="text-2xl text-center font-bold pt-10 text-cyan-900">Noutăți</h2>
+      <CardScrollSection></CardScrollSection>
+    </div>
+    <Contact></Contact>
   </div>
 </template>

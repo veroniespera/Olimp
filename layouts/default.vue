@@ -1,17 +1,7 @@
 <template>
-  <div>
-    <header>Header</header>
-    <div class="tot">
-        <aside>Sidebar</aside>
-        <slot />
-    </div>
-    <footer>Footer</footer>
-  </div>
+<Header></Header>
+<slot />
+<Footer></Footer>
 </template>
 
-<style scoped>
-.tot {
-    display: grid;
-    grid-template-columns: auto 1fr;
-}
-</style>
+<style scoped></style>

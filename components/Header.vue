@@ -48,7 +48,7 @@
           </li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <a class="text-slate-900 font-black text-2xl p-3 ">Olimp</a>
     </div>
 
     <div class="navbar-center hidden lg:flex">
@@ -81,8 +81,6 @@
         </li>
       </ul>
     </div>
-    <div class="navbar-end">
-      <a class="btn">Button</a>
-    </div>
+    <div class="navbar-end"></div>
   </div>
 </template>

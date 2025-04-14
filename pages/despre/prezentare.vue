@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-sky-50">
-    <section class="py-24 relative">
+  <div class="bg-slate-900">
+    <section class="py-34 relative bg-sky-50">
       <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <div
           class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
@@ -14,30 +14,32 @@
               <h2
                 class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
               >
-                Building Stronger Communities through Collaboration and
-                Empowerment
+                Educația este cheia succesului – deschide minți, modelează
+                caractere, creează viitoruri.
               </h2>
               <p
-                class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center"
+                class="text-gray-700 text-base font-normal leading-relaxed lg:text-start text-center"
               >
-                Through collaborationperse perspectives and strengths are
-                leveraged to create inclusive environments where everyone has
-                the opportunity to thrive. This approach not only fosters
-                personal growth and achievement but also strengthens the fabric
-                of society.
+                Liceul Teoretic „Olimp” este o instituție publică de învățământ
+                preuniversitar, dedicată formării academice și dezvoltării
+                personale a elevilor din ciclul gimnazial și liceal. Situat
+                într-o zonă accesibilă, liceul oferă un mediu educațional sigur,
+                modern și motivant, în care elevii sunt încurajați să își
+                valorifice potențialul.
               </p>
             </div>
             <button
-              class="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
+              class="sm:w-fit w-full px-3.5 py-2 bg-slate-900 text-sky-50 border-2 border-slate-900 hover:bg-sky-50 hover:text-slate-900 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
             >
-              <span class="px-1.5 text-white text-sm font-medium leading-6"
+              <span class="px-1.5 text-sm font-medium leading-6"
                 >Get Started</span
               >
             </button>
           </div>
+
           <img
             class="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-            src="https://pagedone.io/asset/uploads/1717751272.png"
+            src="/public/content/despreimg1.jpg"
             alt="about Us image"
           />
         </div>
@@ -57,23 +59,22 @@
                 class="flex-col justify-start lg:items-start items-center gap-4 flex"
               >
                 <h6 class="text-gray-400 text-base font-normal leading-relaxed">
-                  About Us
+                  Despre Noi
                 </h6>
                 <div
                   class="w-full flex-col justify-start lg:items-start items-center gap-3 flex"
                 >
                   <h2
-                    class="text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
+                    class="text-sky-50 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
                   >
-                    The Tale of Our Achievement Story
+                    Povestea realizărilor noastre
                   </h2>
                   <p
-                    class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center"
+                    class="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center"
                   >
-                    Our achievement story is a testament to teamwork and
-                    perseverance. Together, we've overcome challenges,
-                    celebrated victories, and created a narrative of progress
-                    and success.
+                    Povestea realizărilor noastre reflectă munca în echipă și
+                    perseverența. Împreună am depășit provocări, am sărbătorit
+                    succese și am construit un drum al progresului educațional.
                   </p>
                 </div>
               </div>
@@ -87,28 +88,28 @@
                     class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-gray-900 text-2xl font-bold font-manrope leading-9"
+                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
                     >
-                      33+ Years
+                      Peste 33 de ani
                     </h4>
                     <p
-                      class="text-gray-500 text-base font-normal leading-relaxed"
+                      class="text-gray-300 text-base font-normal leading-relaxed"
                     >
-                      Influencing Digital Landscapes Together
+                      Formăm generații împreună
                     </p>
                   </div>
                   <div
                     class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-gray-900 text-2xl font-bold font-manrope leading-9"
+                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
                     >
-                      125+ Projects
+                      125+ inițiative educaționale
                     </h4>
                     <p
-                      class="text-gray-500 text-base font-normal leading-relaxed"
+                      class="text-gray-300 text-base font-normal leading-relaxed"
                     >
-                      Excellence Achieved Through Success
+                      Excelență atinsă prin dedicare
                     </p>
                   </div>
                 </div>
@@ -119,38 +120,38 @@
                     class="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-gray-900 text-2xl font-bold font-manrope leading-9"
+                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
                     >
-                      26+ Awards
+                      26+ premii și distincții
                     </h4>
                     <p
-                      class="text-gray-500 text-base font-normal leading-relaxed"
+                      class="text-gray-300 text-base font-normal leading-relaxed"
                     >
-                      Our Dedication to Innovation Wins Understanding
+                      Dedicarea noastră pentru inovație este recunoscută
                     </p>
                   </div>
                   <div
                     class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-gray-900 text-2xl font-bold font-manrope leading-9"
+                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
                     >
-                      99% Happy Clients
+                      99% elevi și părinți mulțumiți
                     </h4>
                     <p
-                      class="text-gray-500 text-base font-normal leading-relaxed"
+                      class="text-gray-300 text-base font-normal leading-relaxed"
                     >
-                      Mirrors our Focus on Client Satisfaction.
+                      Reflectă preocuparea noastră pentru calitatea educației.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <button
-              class="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex"
+              class="sm:w-fit w-full group px-3.5 py-2 bg-sky-50 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex"
             >
               <span
-                class="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out"
+                class="px-1.5 text-slate-900 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out"
                 >Read More</span
               >
               <svg
@@ -177,7 +178,7 @@
             >
               <img
                 class="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
-                src="https://pagedone.io/asset/uploads/1717742431.png"
+                src="/public/content/despreimg2.jpg"
                 alt="about Us image"
               />
             </div>

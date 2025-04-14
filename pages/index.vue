@@ -11,7 +11,9 @@
       <template #ButtonName> Bun venit!</template>
     </Hero>
     <div>
-      <h2 class="text-2xl text-center font-bold pt-10 text-cyan-900">Noutăți</h2>
+      <h2 class="text-2xl text-center font-bold pt-10 text-cyan-900">
+        Noutăți
+      </h2>
       <CardScrollSection></CardScrollSection>
     </div>
     <Contact></Contact>

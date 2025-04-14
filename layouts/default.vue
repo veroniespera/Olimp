@@ -1,7 +1,5 @@
 <template>
-<Header></Header>
-<slot />
-<Footer></Footer>
+  <Header></Header>
+  <slot />
+  <Footer></Footer>
 </template>
-
-<style scoped></style>

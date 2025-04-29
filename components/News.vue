@@ -3,11 +3,11 @@
     aria-label="Related articles"
     class="py-5 lg:py-14 bg-sky-50 text-gray-900"
   >
-    <div class="px-4 mx-auto max-w-screen-xl">
-      <h2 class="mb-8 text-2xl font-bold ">
-        Noutăți
-      </h2>
-      <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
+    <div class="px-4 mx-auto max-w-screen-xl ">
+      <h2 class="mb-8 text-3xl font-bold flex justify-center">Noutăți</h2>
+      <div
+        class="grid grid-cols-2 md:py-15 m gap-6 lg:gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-items-center"
+      >
         <NewsCard
           v-for="(item, i) in news"
           :key="i"

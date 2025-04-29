@@ -8,7 +8,7 @@
         dolore omnis? Placeat beatae laborum quaerat hic cupiditate illum
         voluptas veniam nobis.
       </template>
-      <template #ButtonName> Bun venit!</template>
+      <template #ButtonName> Despre noi</template>
     </Hero>
     <div>
       <News></News>

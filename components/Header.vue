@@ -48,7 +48,10 @@
           </li>
         </ul>
       </div>
-      <a class="text-slate-900 font-black text-2xl p-3 ">Olimp</a>
+      <a class="p-3 flex items-center lg:gap-2.5 lg:pl-20 gap-3 pl-1">
+        <img src="/public/content/logo2.png" alt="" class="w-12 sm:w-12 md:w-12 lg:w-14 h-auto" />
+        <h1 class=" text-4xl font-black ">Olimp</h1>
+      </a>
     </div>
 
     <div class="navbar-center hidden lg:flex">

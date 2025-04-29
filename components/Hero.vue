@@ -11,7 +11,7 @@
         <p class="py-6 text-xl">
           <slot name="Description" />
         </p>
-        <button class="btn btn-primary">
+        <button class="btn bg-sky-600 border-0 pl-7 pr-7">
           <slot name="ButtonName" />
         </button>
       </div>

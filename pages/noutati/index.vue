@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto p-5 sm:p-10 md:p-16 bg-sky-50">
+  <div class="mx-auto p-5 sm:p-10 md:p-16 bg-white">
     <div class="grid grid-cols-1 sm:grid-cols-12 gap-5">
       <div class="sm:col-span-5">
         <NuxtLink to="/noutati/news1">

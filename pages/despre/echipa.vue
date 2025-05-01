@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-sky-50">
+  <div class="bg-white">
     <Team> </Team>
   </div>
 </template>

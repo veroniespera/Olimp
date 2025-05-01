@@ -1,7 +1,7 @@
 <template>
   <aside
     aria-label="Related articles"
-    class="py-5 lg:py-14 bg-sky-50 text-gray-900"
+    class="py-5 lg:py-14 bg-white text-gray-900"
   >
     <div class="px-4 mx-auto max-w-screen-xl ">
       <h2 class="mb-8 text-3xl font-bold flex justify-center">Noutăți</h2>

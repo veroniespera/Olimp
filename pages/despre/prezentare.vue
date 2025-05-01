@@ -1,6 +1,6 @@
 <template>
   <div class="bg-slate-900">
-    <section class="py-34 relative bg-sky-50">
+    <section class="py-34 relative bg-white">
       <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <div
           class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
@@ -29,7 +29,7 @@
               </p>
             </div>
             <button
-              class="sm:w-fit w-full px-3.5 py-2 bg-slate-900 text-sky-50 border-2 border-slate-900 hover:bg-sky-50 hover:text-slate-900 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
+              class="sm:w-fit w-full px-3.5 py-2 bg-slate-900 text-white border-2 border-slate-900 hover:bg-white hover:text-slate-900 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
             >
               <span class="px-1.5 text-sm font-medium leading-6"
                 >Get Started</span
@@ -65,7 +65,7 @@
                   class="w-full flex-col justify-start lg:items-start items-center gap-3 flex"
                 >
                   <h2
-                    class="text-sky-50 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
+                    class="text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
                   >
                     Povestea realizărilor noastre
                   </h2>
@@ -88,7 +88,7 @@
                     class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
+                      class="text-white text-2xl font-bold font-manrope leading-9"
                     >
                       Peste 33 de ani
                     </h4>
@@ -102,7 +102,7 @@
                     class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
+                      class="text-white text-2xl font-bold font-manrope leading-9"
                     >
                       125+ inițiative educaționale
                     </h4>
@@ -120,7 +120,7 @@
                     class="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
+                      class="text-white text-2xl font-bold font-manrope leading-9"
                     >
                       26+ premii și distincții
                     </h4>
@@ -134,7 +134,7 @@
                     class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                   >
                     <h4
-                      class="text-sky-50 text-2xl font-bold font-manrope leading-9"
+                      class="text-white text-2xl font-bold font-manrope leading-9"
                     >
                       99% elevi și părinți mulțumiți
                     </h4>
@@ -148,7 +148,7 @@
               </div>
             </div>
             <button
-              class="sm:w-fit w-full group px-3.5 py-2 bg-sky-50 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex"
+              class="sm:w-fit w-full group px-3.5 py-2 bg-white rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex"
             >
               <span
                 class="px-1.5 text-slate-900 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out"

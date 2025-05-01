@@ -4,7 +4,7 @@
   >
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="hero-content text-center">
-      <div class="text-sky-50 px-10 sm:px-10 md:px-30 lg:px-60">
+      <div class="text-white px-10 sm:px-10 md:px-30 lg:px-60">
         <h1 class="text-5xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
           <slot name="Title" />
         </h1>

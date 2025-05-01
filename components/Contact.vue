@@ -18,24 +18,24 @@
         <legend class="text-2xl font-bold text-centerpx-4">
           Contactează-ne!
         </legend>
-        <div class="flex flex-col gap-2 text-sky-50 text-lg ">
+        <div class="flex flex-col gap-2 text-white text-lg ">
           <label>Nume</label>
           <input
             type="name"
-            class="input w-full bg-sky-50 text-sky-800"
+            class="input w-full bg-white text-sky-800"
             placeholder="Numele tău"
           />
           <label>Email</label>
           <input
             type="email"
-            class="input w-full bg-sky-50 text-sky-800"
+            class="input w-full bg-white text-sky-800"
             placeholder="exempluemail@gmail.com"
           />
 
           <label>Mesaj</label>
           <textarea
             type="message"
-            class="input w-full p-2 pl-3 bg-sky-50 purple-800"
+            class="input w-full p-2 pl-3 bg-white purple-800"
             placeholder="Mesajul tău"
           ></textarea>
         </div>

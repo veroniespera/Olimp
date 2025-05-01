@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-sky-50">
+  <div class="bg-white">
     <Hero>
       <template #Title>Bun venit!</template>
       <template #Description

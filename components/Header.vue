@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="navbar shadow-sm bg-sky-50 text-sky-950">
+  <div class="navbar shadow-sm bg-white text-sky-950">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -22,7 +22,7 @@
         </div>
         <ul
           tabindex="0"
-          class="menu menu-sm dropdown-content bg-sky-50 rounded-box z-1 mt-5 w-52 p-2 shadow"
+          class="menu menu-sm dropdown-content bg-white rounded-box z-1 mt-5 w-52 p-2 shadow"
         >
           <li><NuxtLink to="/">Acasă</NuxtLink></li>
           <li>
@@ -60,7 +60,7 @@
         <li>
           <details>
             <summary>Despre</summary>
-            <ul class="bg-sky-50 w-45 rounded-tl-none rounded-tr-none z-1">
+            <ul class="bg-white w-45 rounded-tl-none rounded-tr-none z-1">
               <li>
                 <NuxtLink to="/despre/prezentare">Prezentare Generală</NuxtLink>
               </li>
@@ -75,7 +75,7 @@
         <li>
           <details>
             <summary>Resurse</summary>
-            <ul class="bg-sky-50 w-45 rounded-tl-none rounded-tr-none z-1">
+            <ul class="bg-white w-45 rounded-tl-none rounded-tr-none z-1">
               <li><NuxtLink to="/resurse/manuale">Manuale</NuxtLink></li>
               <li><NuxtLink to="/resurse/lectii">Lecții online</NuxtLink></li>
               <li><NuxtLink to="/resurse/orar">Orar</NuxtLink></li>

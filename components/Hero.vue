@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hero min-h-140 bg-[url(/content/headerNew.jpg)] bg-cover bg-center relative"
+    class="hero min-h-140 bg-[url(/content/HeaderNew.jpg)] bg-cover bg-center relative"
   >
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="hero-content text-center">

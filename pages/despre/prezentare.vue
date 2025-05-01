@@ -28,13 +28,7 @@
                 valorifice potențialul.
               </p>
             </div>
-            <button
-              class="sm:w-fit w-full px-3.5 py-2 bg-slate-900 text-white border-2 border-slate-900 hover:bg-white hover:text-slate-900 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
-            >
-              <span class="px-1.5 text-sm font-medium leading-6"
-                >Get Started</span
-              >
-            </button>
+           
           </div>
 
           <img
@@ -147,30 +141,7 @@
                 </div>
               </div>
             </div>
-            <button
-              class="sm:w-fit w-full group px-3.5 py-2 bg-white rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex"
-            >
-              <span
-                class="px-1.5 text-slate-900 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out"
-                >Read More</span
-              >
-              <svg
-                class="group-hover:translate-x-0.5 transition-all duration-700 ease-in-out"
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-              >
-                <path
-                  d="M6.75265 4.49658L11.2528 8.99677L6.75 13.4996"
-                  stroke="#4F46E5"
-                  stroke-width="1.6"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
+           
           </div>
           <div class="w-full lg:justify-start justify-center items-start flex">
             <div

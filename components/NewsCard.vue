@@ -9,12 +9,12 @@
     <p class="mb-4 text-gray-600">
       <slot name="Paragraf" />
     </p>
-    <a
-      href="#"
+    <NuxtLink
+      to="noutati"
       class="inline-flex items-center font-medium underline-offset-4 text-primary-600 dark:text-primary-500 hover:underline"
     >
       Află mai mult
-    </a>
+    </NuxtLink>
   </article>
 </template>
 

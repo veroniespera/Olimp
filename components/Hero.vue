@@ -11,9 +11,11 @@
         <p class="py-6 text-xl">
           <slot name="Description" />
         </p>
-        <button class="btn bg-sky-800 border-0 pl-7 pr-7">
-          <slot name="ButtonName" />
-        </button>
+        <NuxtLink to="/despre/prezentare">
+          <button class="btn bg-sky-800 border-0 pl-7 pr-7">
+            <slot name="ButtonName" />
+          </button>
+        </NuxtLink>
       </div>
     </div>
   </div>

@@ -163,7 +163,7 @@ const schedules = {
 export default {
   data() {
     return {
-      selectedClass: 'clasa1'
+      selectedClass: "clasa1",
     };
   },
   mounted() {
@@ -192,7 +192,7 @@ export default {
 
         zile.forEach(([zi, lectii]) => {
           const row = document.createElement("tr");
-          row.innerHTML = `<td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${zi}</td>`;
+          row.innerHTML = `<td class="px-6 py-4 font-medium text-sky-950 whitespace-nowrap">${zi}</td>`;
           for (let i = 0; i < maxLectii; i++) {
             const cell = document.createElement("td");
             cell.textContent = lectii[i] || "";

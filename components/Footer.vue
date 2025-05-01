@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-900">
+  <footer class="bg-slate-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
@@ -17,12 +17,10 @@
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold  uppercase text-white"
-            >
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">
               Despre
             </h2>
-            <ul class=" text-gray-400 font-medium">
+            <ul class="text-gray-400 font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline"
                   >Prezentare Generală</a
@@ -36,9 +34,7 @@
             </ul>
           </div>
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold uppercase text-white"
-            >
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">
               Urmărește-ne
             </h2>
             <ul class="text-gray-400 font-medium">
@@ -52,9 +48,7 @@
             </ul>
           </div>
           <div>
-            <h2
-              class="mb-6 text-sm font-semibolduppercase text-white"
-            >
+            <h2 class="mb-6 text-sm font-semibolduppercase text-white">
               Legal
             </h2>
             <ul class="text-gray-400 font-medium">
@@ -68,11 +62,9 @@
           </div>
         </div>
       </div>
-      <hr
-        class="my-6 sm:mx-auto border-gray-700 lg:my-8"
-      />
+      <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm  sm:text-center text-gray-400"
+        <span class="text-sm sm:text-center text-gray-400"
           >© 2025
           <a href="https://flowbite.com/" class="hover:underline">Olimp</a>.
           Toate drepturile rezervate.

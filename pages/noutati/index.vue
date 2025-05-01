@@ -19,7 +19,7 @@
             </p>
             <NuxtLink
               to="/noutati/news1"
-              class="block text-gray-900 font-bold text-2xl mb-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+              class="block text-sky-950 font-bold text-2xl mb-2 hover:text-indigo-600 transition duration-500 ease-in-out"
               >Revenge of the Never Trumpers</NuxtLink
             >
             <p class="text-gray-700 text-base mt-2">
@@ -40,7 +40,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
           >
         </div>
@@ -53,7 +53,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
           >
         </div>
@@ -66,7 +66,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
           >
         </div>
@@ -79,7 +79,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
           >
         </div>
@@ -92,7 +92,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
           >
         </div>
@@ -105,7 +105,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
           >
         </div>
@@ -120,7 +120,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
           >
         </div>
@@ -133,7 +133,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
           >
         </div>
@@ -146,7 +146,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
           >
         </div>
@@ -159,7 +159,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
           >
         </div>
@@ -172,7 +172,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
           >
         </div>
@@ -185,7 +185,7 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
             >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
           >
         </div>

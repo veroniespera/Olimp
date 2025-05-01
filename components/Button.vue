@@ -11,6 +11,6 @@ interface Props {
   bg?: string;
 }
 withDefaults(defineProps<Props>(), {
-  bg: "bg-sky-800",
+  bg: "bg-sky-950",
 });
 </script>

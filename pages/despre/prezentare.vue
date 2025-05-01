@@ -12,7 +12,7 @@
               class="w-full flex-col justify-start lg:items-start items-center gap-4 flex"
             >
               <h2
-                class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
+                class="text-sky-950 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
               >
                 Educația este cheia succesului – deschide minți, modelează
                 caractere, creează viitoruri.

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pl-20 py-10 pr-20 bg-white flex relative overflow-x-auto flex-col justify-start"
+    class="pl-20 py-10 pr-20 bg-white flex relative overflow-x-auto flex-col justify-start min-h-120"
   >
     <section class="filter-section text-gray-700 pb-3">
       <label
@@ -30,15 +30,18 @@
         </select>
       </section>
 
-      <div v-if="selectedClass" class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 w-full items-start">
-        <h2 class="font-semibold text-gray-800 text-sm mb-2">
+      <div
+        v-if="selectedClass"
+        class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 w-full items-start"
+      >
+        <h2 class="font-semibold text-sky-950 text-sm mb-2">
           Manuale disponibile:
         </h2>
         <a
           v-for="manual in manualsByClass[selectedClass] || []"
           :key="manual.title"
           :href="manual.link"
-          class="block text-sky-700 hover:underline break-words w-full"
+          class="block text-sky-950 hover:underline break-words w-full"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -58,10 +61,22 @@ export default {
       manualsByClass: manuals.materials.reduce((acc, entry) => {
         const match = entry.class.match(/Clasa a ([IVXLC]+|I)(?:-a)?/i);
         const romanToArabic = {
-          "I": "1", "II": "2", "III": "3", "IV": "4", "V": "5", "VI": "6",
-          "VII": "7", "VIII": "8", "IX": "9", "X": "10", "XI": "11", "XII": "12"
+          I: "1",
+          II: "2",
+          III: "3",
+          IV: "4",
+          V: "5",
+          VI: "6",
+          VII: "7",
+          VIII: "8",
+          IX: "9",
+          X: "10",
+          XI: "11",
+          XII: "12",
         };
-        const key = match ? `clasa${romanToArabic[match[1]]}` : entry.class.toLowerCase().replace(/\s/g, "");
+        const key = match
+          ? `clasa${romanToArabic[match[1]]}`
+          : entry.class.toLowerCase().replace(/\s/g, "");
         acc[key] = entry.items;
         return acc;
       }, {}),

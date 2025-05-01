@@ -8,7 +8,7 @@
       <div
         class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-sm:justify-center mt-12 max-md:max-w-xl max-sm:max-w-xs mx-auto"
       >
-        <div class="bg-gray-800 p-3 border rounded-lg">
+        <div class="bg-sky-950 p-3 border rounded-lg">
           <img
             src="https://readymadeui.com/team-6.webp"
             class="w-full object-contain aspect-square object-top rounded-lg"
@@ -21,7 +21,7 @@
             </p>
           </div>
         </div>
-        <div class="bg-gray-800 p-3 border rounded-lg">
+        <div class="bg-sky-950 p-3 border rounded-lg">
           <img
             src="https://readymadeui.com/team-6.webp"
             class="w-full object-contain aspect-square object-top rounded-lg"
@@ -33,7 +33,8 @@
               Director, Pr. Informatică
             </p>
           </div>
-        </div><div class="bg-gray-800 p-3 border rounded-lg">
+        </div>
+        <div class="bg-sky-950 p-3 border rounded-lg">
           <img
             src="https://readymadeui.com/team-6.webp"
             class="w-full object-contain aspect-square object-top rounded-lg"
@@ -45,7 +46,8 @@
               Director, Pr. Informatică
             </p>
           </div>
-        </div><div class="bg-gray-800 p-3 border rounded-lg">
+        </div>
+        <div class="bg-sky-950 p-3 border rounded-lg">
           <img
             src="https://readymadeui.com/team-6.webp"
             class="w-full object-contain aspect-square object-top rounded-lg"
@@ -57,7 +59,8 @@
               Director, Pr. Informatică
             </p>
           </div>
-        </div><div class="bg-gray-800 p-3 border rounded-lg">
+        </div>
+        <div class="bg-sky-950 p-3 border rounded-lg">
           <img
             src="https://readymadeui.com/team-6.webp"
             class="w-full object-contain aspect-square object-top rounded-lg"
@@ -69,7 +72,8 @@
               Director, Pr. Informatică
             </p>
           </div>
-        </div><div class="bg-gray-800 p-3 border rounded-lg">
+        </div>
+        <div class="bg-sky-950 p-3 border rounded-lg">
           <img
             src="https://readymadeui.com/team-6.webp"
             class="w-full object-contain aspect-square object-top rounded-lg"

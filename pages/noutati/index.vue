@@ -13,18 +13,17 @@
           <div class="">
             <p
               to="/noutati/news1"
-              class="text-xs text-indigo-600 uppercase font-mediumt"
+              class="text-xs text-sky-600 uppercase font-mediumt"
             >
-              Cel mai recent
+              Noutăți recente
             </p>
             <NuxtLink
               to="/noutati/news1"
-              class="block text-sky-950 font-bold text-2xl mb-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-              >Revenge of the Never Trumpers</NuxtLink
+              class="block text-sky-950 font-bold text-2xl mb-2 hover:text-sky-600 transition duration-500 ease-in-out"
+              >Lansarea noului laborator de informatică</NuxtLink
             >
             <p class="text-gray-700 text-base mt-2">
-              Meet the Republican dissidents fighting to push Donald Trump out
-              of office—and reclaim their party
+              Elevii au participat la deschiderea oficială a noului laborator dotat cu echipamente moderne.
             </p>
           </div>
         </div>
@@ -40,8 +39,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Deschiderea anului școlar 2024–2025</NuxtLink
           >
         </div>
         <div class="">
@@ -53,8 +52,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Olimpiada județeană de matematică</NuxtLink
           >
         </div>
         <div class="">
@@ -66,8 +65,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Ziua sportului în curtea liceului</NuxtLink
           >
         </div>
         <div class="">
@@ -79,8 +78,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Proiecte ecologice desfășurate de elevi</NuxtLink
           >
         </div>
         <div class="">
@@ -92,8 +91,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Vizită la Muzeul Național de Istorie</NuxtLink
           >
         </div>
         <div class="">
@@ -105,8 +104,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Concurs de lectură "Cărți și idei"</NuxtLink
           >
         </div>
       </div>
@@ -120,8 +119,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Atelier de robotică pentru clasele primare</NuxtLink
           >
         </div>
         <div class="">
@@ -133,8 +132,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Deschiderea anului școlar 2024–2025</NuxtLink
           >
         </div>
         <div class="">
@@ -146,8 +145,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Olimpiada județeană de matematică</NuxtLink
           >
         </div>
         <div class="">
@@ -159,8 +158,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >How Trump's Mistakes Became Biden's Big Breaks</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Ziua sportului în curtea liceului</NuxtLink
           >
         </div>
         <div class="">
@@ -172,8 +171,8 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Survey: Many Americans 'Dissatisfied' With U.S.</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Proiecte ecologice desfășurate de elevi</NuxtLink
           >
         </div>
         <div class="">
@@ -185,8 +184,21 @@
           </NuxtLink>
           <NuxtLink
             to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
-            >Trump Steps Back Into Coronavirus Spotlight</NuxtLink
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Vizită la Muzeul Național de Istorie</NuxtLink
+          >
+        </div>
+        <div class="">
+          <NuxtLink to="/noutati/news1">
+            <div
+              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              title="Woman holding a mug"
+            ></div>
+          </NuxtLink>
+          <NuxtLink
+            to="/noutati/news1"
+            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >Concurs de lectură "Cărți și idei"</NuxtLink
           >
         </div>
       </div>

@@ -8,7 +8,7 @@
           ></div>
         </NuxtLink>
         <div
-          class="mt-3 bg-sky-100 p-4 rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal"
+          class="mt-3 bg-blue-100 p-4 rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal"
         >
           <div class="">
             <p

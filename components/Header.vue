@@ -48,10 +48,12 @@
           </li>
         </ul>
       </div>
-      <a class="p-3 flex items-center lg:gap-2.5 lg:pl-20 gap-3 pl-1">
-        <img src="/public/content/logo2.png" alt="" class="w-12 sm:w-12 md:w-12 lg:w-14 h-auto" />
-        <h1 class=" text-4xl font-black ">Olimp</h1>
-      </a>
+      <NuxtLink to="/"
+        class="p-3 flex items-center lg:gap-2.5 lg:pl-20 gap-3 pl-1"
+      >
+        <img src="/public/content/logo.png" alt="" class="w-10 h-auto" />
+        <h1 class="text-3xl font-black">Olimp</h1>
+      </NuxtLink>
     </div>
 
     <div class="navbar-center hidden lg:flex">

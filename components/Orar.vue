@@ -1,7 +1,18 @@
 <template>
-  <div class="p-10 bg-white flex justify-center relative overflow-x-auto flex-col">
+  <div
+    class="p-10 bg-white flex relative overflow-x-auto flex-col justify-start h-100"
+  >
+    <label
+      for="class"
+      class="block mb-2 font-semibold text-gray-700 pb-3 text-sm"
+      >Selectează clasa:</label
+    >
     <section class="filter-section text-gray-700 pb-3">
-      <select id="class-filter" @change="filterSchedule">
+      <select
+        id="class-filter"
+        v-model="selectedClass"
+        @change="filterSchedule"
+      >
         <option value="clasa1">Clasa I</option>
         <option value="clasa2">Clasa a II-a</option>
         <option value="clasa3">Clasa a III-a</option>
@@ -17,20 +28,22 @@
       </select>
     </section>
 
-    <table
-      id="schedule-table"
-      class="w-full text-sm text-left rtl:text-right text-gray-500 table-fixed"
-    >
-      <thead
-        id="schedule-head"
-        class="text-xs text-gray-700 uppercase bg-gray-50"
+    <div class="overflow-x-auto w-full">
+      <table
+        id="schedule-table"
+        class="min-w-full text-xs sm:text-sm text-left rtl:text-right text-gray-500 table-fixed"
       >
-        <!-- generat dinamic -->
-      </thead>
-      <tbody id="schedule-body" class="bg-white divide-y divide-gray-200">
-        <!-- generat dinamic -->
-      </tbody>
-    </table>
+        <thead
+          id="schedule-head"
+          class="text-xs text-gray-700 uppercase bg-gray-50"
+        >
+          <!-- generat dinamic -->
+        </thead>
+        <tbody id="schedule-body" class="bg-white divide-y divide-gray-200">
+          <!-- generat dinamic -->
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -148,6 +161,14 @@ const schedules = {
 };
 
 export default {
+  data() {
+    return {
+      selectedClass: 'clasa1'
+    };
+  },
+  mounted() {
+    this.filterSchedule({ target: { value: this.selectedClass } });
+  },
   methods: {
     filterSchedule(event) {
       const selectedClass = event.target.value;

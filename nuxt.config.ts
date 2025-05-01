@@ -8,9 +8,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  app: {
-    baseURL: "/Olimp/",
-  },
+ 
 
   modules: [
     "@nuxt/content",

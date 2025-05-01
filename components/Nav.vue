@@ -96,7 +96,7 @@
             </svg>
           </span>
           <ul
-            class="absolute left-0 hidden group-hover:flex flex-col bg-white mt-2 rounded shadow z-10 w-48 overflow-hidden"
+            class="absolute left-0 hidden group-hover:flex flex-col bg-white mt-2 rounded shadow z-10 w-40 overflow-hidden"
           >
             <li>
               <NuxtLink

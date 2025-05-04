@@ -1,14 +1,14 @@
 <template>
-  <div class="mx-auto p-5 sm:p-10 md:p-16 bg-white">
-    <div class="grid grid-cols-1 sm:grid-cols-12 gap-5">
-      <div class="sm:col-span-5">
+  <div class="mx-auto p-5 sm:p-8 md:p-12 lg:p-16 bg-white">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      <div class="lg:col-span-5 w-full">
         <NuxtLink to="/noutati/news1">
           <div
-            class="bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)] min-h-[300px]"
+            class="bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)] h-48 sm:h-64 md:h-80 lg:h-[300px]"
           ></div>
         </NuxtLink>
         <div
-          class="mt-3 bg-blue-100 p-4 rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal"
+          class="mt-3 bg-blue-100 p-4 rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal w-full"
         >
           <div class="">
             <p
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <div class="sm:col-span-7 grid grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-5 w-full">
         <div class="">
           <NuxtLink to="/noutati/news1">
             <div

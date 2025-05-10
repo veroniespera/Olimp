@@ -1,20 +1,19 @@
 <template>
   <div
-    class="hero min-h-140 bg-[url(/content/HeaderNew.jpg)] bg-cover bg-center relative"
+    class="hero min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] bg-[url(/content/HeaderNew.jpg)] bg-cover bg-center relative"
   >
     <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="hero-content lg:text-center">
-      <div class="text-white px-8 sm:px-8 md:px-30 lg:px-60">
-        <h1
-          class="text-4xl text-left lg:text-center font-bold sm:text-5xl md:text-6xl lg:text-7xl"
-        >
+    <div class="hero-content text-center ">
+
+      <div class="text-white px-20 sm:px-8 md:px-30 lg:px-50">
+        <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold">
           <slot name="Title" />
         </h1>
-        <p class="py-6 max-w-2xl text-xl mx-auto text-left lg:text-center">
+        <p class="py-6 text-md md:text-lg lg:text-xl">
           <slot name="Description" />
         </p>
         <NuxtLink to="/despre/prezentare">
-          <button class="btn bg-sky-800 border-0 pl-7 pr-7">
+          <button class="btn text-md bg-sky-800 border-0 px-4 sm:px-6 lg:px-7">
             <slot name="ButtonName" />
           </button>
         </NuxtLink>

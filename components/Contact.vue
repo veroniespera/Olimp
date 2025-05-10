@@ -1,10 +1,11 @@
 <template>
-  <div class="grid md:grid-cols-2 min-h-[32rem]">
-    <!-- Info Card - Enhanced with gradient and better spacing -->
+  <div class="grid md:grid-cols-2 min-h-[32rem] lg:px-40 px-5 gap-5">
     <div
-      class="rounded-l-3xl bg-gradient-to-br from-slate-700 to-slate-500 text-sky-100 p-15 w-130 text-xl flex flex-col gap-6 justify-center shadow-xl"
+      class="md:px-10 lg:rounded-l-3xl rounded-3xl bg-gradient-to-br from-slate-700 to-slate-500 text-sky-100 p-15 text-base sm:text-lg md:text-xl flex flex-col gap-6 justify-center shadow-xl w-full"
     >
-      <h2 class="text-4xl font-bold mb-4 text-white">Informații de contact</h2>
+      <h2 class="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">
+        Informații de contact
+      </h2>
       <ul class="space-y-4 list-none pl-0">
         <li class="flex items-start gap-3">
           <svg
@@ -83,18 +84,19 @@
       </ul>
     </div>
 
-    <!-- Form Card - Enhanced with better styling -->
     <div
-      class="rounded-r-3xl flex justify-center bg-gradient-to-br from-sky-300 to-sky-700 p-15 w-130 shadow-xl"
+      class="lg:rounded-r-3xl rounded-3xl flex justify-center bg-gradient-to-br from-sky-300 to-sky-700 p-15 md:px-6 shadow-xl"
     >
-      <fieldset
-        class="fieldset bg-transparent rounded-box max-w-md w-full p-5 gap-3"
-      >
-        <legend class="text-3xl font-bold text-center px-4 text-white">
+      <fieldset class="fieldset bg-transparent rounded-box w-full p-5 gap-3">
+        <legend
+          class="whitespace-nowrap text-3xl sm:text-3xl md:text-3xl font-bold text-center px-4 text-white"
+        >
           Contactează-ne!
         </legend>
 
-        <div class="flex flex-col gap-4 text-white text-lg">
+        <div
+          class="flex flex-col gap-4 text-white text-base sm:text-lg md:text-xl"
+        >
           <div class="space-y-1">
             <label class="font-medium text-sky-100">Nume</label>
             <input
@@ -124,7 +126,7 @@
         </div>
 
         <button
-          class="btn mt-6 w-full bg-slate-900 hover:bg-slate-700 text-white border-0 shadow-lg py-3 text-lg rounded-lg transition transform hover:scale-[1.01]"
+          class="btn mt-6 w-full bg-slate-700 hover:bg-slate-600 text-white border-0 shadow-lg py-3 text-base sm:text-lg md:text-xl rounded-lg transition transform hover:scale-[1.01]"
         >
           Trimite Mesaj
           <svg

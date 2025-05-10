@@ -1,41 +1,36 @@
 <template>
   <div class="bg-slate-900">
-    <section class="py-34 relative bg-white">
-      <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+    <section class="py-10 relative bg-white">
+      <div class="px-4 md:px-5 lg:px-5">
         <div
-          class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
+          class="md:px-30 justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
         >
-          <div
-            class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex"
-          >
-            <div
-              class="w-full flex-col justify-start lg:items-start items-center gap-4 flex"
-            >
-              <h2
-                class="text-sky-950 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
-              >
-                Educația este cheia succesului – deschide minți, modelează
-                caractere, creează viitoruri.
-              </h2>
-              <p
-                class="text-gray-700 text-base font-normal leading-relaxed lg:text-start text-center"
-              >
-                Liceul Teoretic „Olimp” este o instituție publică de învățământ
-                preuniversitar, dedicată formării academice și dezvoltării
-                personale a elevilor din ciclul gimnazial și liceal. Situat
-                într-o zonă accesibilă, liceul oferă un mediu educațional sigur,
-                modern și motivant, în care elevii sunt încurajați să își
-                valorifice potențialul.
-              </p>
-            </div>
-           
+          <div class="flex justify-center items-center">
+            <img
+              class="rounded-3xl object-cover"
+              src="/public/content/despreimg1.jpg"
+              alt="about Us image"
+            />
           </div>
 
-          <img
-            class="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-            src="/public/content/despreimg1.jpg"
-            alt="about Us image"
-          />
+          <div
+            class="w-full flex-col justify-start lg:items-start items-center gap-4 flex"
+          >
+            <h2
+              class="text-sky-950 text-4xl font-bold font-manrope leading-normal"
+            >
+              Educația este cheia succesului – deschide minți, modelează
+              caractere, creează viitoruri.
+            </h2>
+            <p class="text-gray-700 text-base font-normal leading-relaxed">
+              Liceul Teoretic „Olimp” este o instituție publică de învățământ
+              preuniversitar, dedicată formării academice și dezvoltării
+              personale a elevilor din ciclul gimnazial și liceal. Situat într-o
+              zonă accesibilă, liceul oferă un mediu educațional sigur, modern
+              și motivant, în care elevii sunt încurajați să își valorifice
+              potențialul.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -141,7 +136,6 @@
                 </div>
               </div>
             </div>
-           
           </div>
           <div class="w-full lg:justify-start justify-center items-start flex">
             <div

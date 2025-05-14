@@ -1,6 +1,6 @@
 <template>
   <div class="bg-slate-900">
-    <section class="py-10 relative bg-white">
+    <section class="py-25 relative bg-white">
       <div class="px-4 md:px-5 lg:px-5">
         <div
           class="md:px-30 justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"

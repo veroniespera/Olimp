@@ -2,13 +2,14 @@
   <div class="bg-white">
     <Hero>
       <template #Title>Bun venit!</template>
-      <template #Description>
+      <template #Quote>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-          autem ab aspernatur nemo voluptate reprehenderit totam adipisci
-          aliquid dolore omnis. Placeat beatae laborum quaerat hic cupiditate
-          illum voluptas veniam nobis.
+          "Orice școală se mândrește nu cu numărul, ci cu bunul nume al elevilor
+          săi!"
         </p>
+      </template>
+      <template #Author>
+        <p>- Pitagora</p>
       </template>
       <template #ButtonName> Despre noi</template>
     </Hero>

@@ -9,9 +9,11 @@
         <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold">
           <slot name="Title" />
         </h1>
-        <p class="py-6 text-md md:text-lg lg:text-xl">
-          <slot name="Description" />
+        <p class="pt-6 text-md md:text-lg lg:text-xl">
+          <slot name="Quote" />
         </p>
+        <p class="pb-6 italic text-right text-md md:text-lg lg:text-xl">
+          <slot name="Author" /></p>
         <NuxtLink to="/despre/prezentare">
           <button class="btn text-md bg-sky-800 border-0 px-4 sm:px-6 lg:px-7">
             <slot name="ButtonName" />

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <Hero>
-      <template #Title>Bun venit!</template>
+      <template #Title>Liceul Teoretic "Olimp"</template>
       <template #Quote>
         <p>
           "Orice școală se mândrește nu cu numărul, ci cu bunul nume al elevilor

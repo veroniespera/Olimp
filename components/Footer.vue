@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-slate-900">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="mx-auto w-full max-w-screen-xl p-4 pb-6 pt-10 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <a href="#" class="flex items-center">
@@ -15,7 +15,7 @@
             >
           </a>
         </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
           <div>
             <h2 class="mb-6 text-sm font-semibold uppercase text-white">
               Despre
@@ -47,19 +47,7 @@
               </li>
             </ul>
           </div>
-          <div>
-            <h2 class="mb-6 text-sm font-semibolduppercase text-white">
-              Legal
-            </h2>
-            <ul class="text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-              </li>
-            </ul>
-          </div>
+    
         </div>
       </div>
       <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />

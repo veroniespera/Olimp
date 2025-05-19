@@ -121,6 +121,17 @@
             </li>
           </ul>
         </li>
+        <li class="h-10 min-w-10 -mt-2">
+          <div class="flex items-center gap-2">
+            <NuxtLink to="/profil">Profil</NuxtLink>
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/fluency-systems-filled/48/user-male-circle.png"
+              alt="user-male-circle"
+            />
+          </div>
+        </li>
       </ul>
     </div>
 

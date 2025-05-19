@@ -1,7 +1,7 @@
 <template>
   <div class="bg-slate-50 flex justify-center items-start p-10">
     <div class="max-w-6xl w-full flex flex-col md:flex-row gap-10">
-      <div class="p-10 max-w-lg mx-auto text-sky-950 w-full">
+      <div class="p-10 max-w-xl mx-auto text-sky-950 w-full">
       <div class="card bg-white shadow-md">
         <div class="card-body items-center text-center">
           <div class="avatar">
@@ -25,20 +25,17 @@
           </select>
 
           <div
-            class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4 w-full text-left"
+            class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-4 w-full text-left"
           >
-            <div
-              v-for="(label, key) in ['Semestrul I', 'Semestrul II', 'Finală']"
-              :key="key"
-            >
+            <div v-for="(label, key) in ['Semestrul I', 'Semestrul II', 'Finală']" :key="key">
               <h3 class="font-bold mb-2">{{ label }}</h3>
               <div
-                v-for="(value, subject) in yearMarks[label]"
+                v-for="(subjectGrades, subject) in computedGrades"
                 :key="subject"
                 class="flex justify-between"
               >
                 <span class="font-semibold">{{ subject }}:</span>
-                <span>{{ value }}</span>
+                <span>{{ subjectGrades[label] ?? '—' }}</span>
               </div>
             </div>
           </div>
@@ -75,16 +72,72 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import studentData from "~/server/data/student-data.json";
 import schedule from "~/server/data/schedule.json";
 import homeworkData from '~/server/data/homework.json';
 
 const student = ref(studentData);
-const years = Object.keys(student.value.marks);
+const years = Array.from({ length: 12 }, (_, i) => `Clasa ${i + 1}`);
 const selectedYear = ref(`Clasa ${student.value.grade}`);
 
-const yearMarks = computed(() => student.value.marks[selectedYear.value] || {});
+// Watch selectedYear and update student.value.grade accordingly
+watch(selectedYear, (newVal) => {
+  const match = newVal.match(/\d+/);
+  if (match) student.value.grade = parseInt(match[0]);
+});
+
+function isSemester1(dateStr) {
+  const month = new Date(dateStr).getMonth();
+  return month >= 8 && month <= 11; // Sept–Dec
+}
+
+function isSemester2(dateStr) {
+  const month = new Date(dateStr).getMonth();
+  return month >= 0 && month <= 4; // Jan–May
+}
+
+function computeAverage(grades) {
+  if (!grades.length) return null;
+  const sum = grades.reduce((a, b) => a + parseFloat(b), 0);
+  return (sum / grades.length).toFixed(2);
+}
+
+const classKey = computed(() => `Clasa ${student.value.grade}`);
+
+const computedGrades = computed(() => {
+  const classHomework = homeworkData[classKey.value];
+  if (!classHomework) return {};
+
+  const subjects = {};
+  for (const [dateStr, entries] of Object.entries(classHomework)) {
+    for (const { disciplina, nota } of entries) {
+      if (!nota) continue;
+      const sem = isSemester1(dateStr) ? 'Semestrul I' : 'Semestrul II';
+      subjects[disciplina] = subjects[disciplina] || {
+        'Semestrul I': [],
+        'Semestrul II': []
+      };
+      subjects[disciplina][sem].push(nota);
+    }
+  }
+
+  const result = {};
+  for (const [subject, values] of Object.entries(subjects)) {
+    const sem1 = computeAverage(values['Semestrul I']);
+    const sem2 = computeAverage(values['Semestrul II']);
+    const final =
+      sem1 && sem2 ? ((+sem1 + +sem2) / 2).toFixed(2) : sem1 || sem2 || null;
+
+    result[subject] = {
+      'Semestrul I': sem1,
+      'Semestrul II': sem2,
+      'Finală': final
+    };
+  }
+
+  return result;
+});
 
 // Schedule-related logic
 const selectedDate = ref(new Date().toISOString().split("T")[0]);
@@ -94,7 +147,7 @@ const dayName = computed(() => {
     date.getDay()
   ];
 });
-const classKey = computed(() => `Clasa ${student.value.grade}`);
+
 const daySchedule = computed(
   () => schedule[classKey.value]?.[dayName.value] || []
 );

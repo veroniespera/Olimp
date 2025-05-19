@@ -1,5 +1,73 @@
 {
   "Clasa 12": {
+    "2023-09-01": [
+      {
+        "disciplina": "Română",
+        "tema": "Lectură: „Baltagul” capitolele 1-2",
+        "nota": "9"
+      },
+      {
+        "disciplina": "Matematică",
+        "tema": "Recapitulare funcții",
+        "nota": "8"
+      }
+    ],
+    "2023-09-04": [
+      {
+        "disciplina": "Fizică",
+        "tema": "Măsurarea vitezei. Probleme 1-3",
+        "nota": "10"
+      }
+    ],
+    "2023-10-10": [
+      {
+        "disciplina": "Biologie",
+        "tema": "Structura celulei",
+        "nota": "7"
+      }
+    ],
+    "2023-11-15": [
+      {
+        "disciplina": "Chimie",
+        "tema": "Reacții de neutralizare",
+        "nota": "8"
+      }
+    ],
+    "2023-12-20": [
+      {
+        "disciplina": "Engleză",
+        "tema": "Eseu: Holiday Traditions",
+        "nota": "9"
+      }
+    ],
+    "2024-01-10": [
+      {
+        "disciplina": "Informatică",
+        "tema": "Algoritmi de sortare",
+        "nota": "9"
+      }
+    ],
+    "2024-03-05": [
+      {
+        "disciplina": "Română",
+        "tema": "Comentariu literar: „Moara cu noroc”",
+        "nota": "10"
+      }
+    ],
+    "2024-04-18": [
+      {
+        "disciplina": "Matematică",
+        "tema": "Integrale definite",
+        "nota": "8"
+      }
+    ],
+    "2024-05-20": [
+      {
+        "disciplina": "Fizică",
+        "tema": "Rezumare: Electromagnetism",
+        "nota": "10"
+      }
+    ],
     "2025-05-20": [
       {
         "disciplina": "Matematică",
@@ -40,6 +108,76 @@
       {
         "disciplina": "Informatică",
         "tema": "Algoritmi recursivi",
+        "nota": "8"
+      }
+    ]
+  },
+  "Clasa 11": {
+    "2023-09-05": [
+      {
+        "disciplina": "Română",
+        "tema": "Analiză: „Enigma Otiliei”",
+        "nota": "9"
+      },
+      {
+        "disciplina": "Matematică",
+        "tema": "Inecuatii de gradul II",
+        "nota": "8"
+      }
+    ],
+    "2023-11-01": [
+      {
+        "disciplina": "Fizică",
+        "tema": "Optica geometrică",
+        "nota": "9"
+      }
+    ],
+    "2024-02-20": [
+      {
+        "disciplina": "Chimie",
+        "tema": "Reacții organice",
+        "nota": "10"
+      }
+    ],
+    "2024-04-15": [
+      {
+        "disciplina": "Informatică",
+        "tema": "Structuri de date – Liste",
+        "nota": "9"
+      }
+    ]
+  },
+  "Clasa 10": {
+    "2023-09-08": [
+      {
+        "disciplina": "Română",
+        "tema": "Caracterizare personaj: „Ion”",
+        "nota": "8"
+      }
+    ],
+    "2023-10-18": [
+      {
+        "disciplina": "Matematică",
+        "tema": "Funcții polinomiale",
+        "nota": "9"
+      },
+      {
+        "disciplina": "Biologie",
+        "tema": "Sistemul digestiv",
+        "nota": "7"
+      }
+    ],
+    "2024-01-12": [
+      {
+        "disciplina": "Fizică",
+        "tema": "Legea lui Ohm",
+        "nota": "10"
+      }
+    ],
+    "2024-05-10": [
+      {
+        "disciplina": "Chimie",
+        "tema": "Oxizi și acizi",
         "nota": "8"
       }
     ]

@@ -1,0 +1,47 @@
+{
+  "Clasa 12": {
+    "2025-05-20": [
+      {
+        "disciplina": "Matematică",
+        "tema": "Exercițiile 1-5 de la pagina 100",
+        "nota": "8"
+      },
+      {
+        "disciplina": "Fizică",
+        "tema": "Studiază capitolul despre electricitate",
+        "nota": "9"
+      }
+    ],
+    "2025-05-21": [
+      {
+        "disciplina": "Română",
+        "tema": "Comentariu literar - „Luceafărul”",
+        "nota": "10"
+      },
+      {
+        "disciplina": "Biologie",
+        "tema": "Recapitulare capitolul 4",
+        "nota": "7"
+      }
+    ],
+    "2025-05-22": [
+      {
+        "disciplina": "Chimie",
+        "tema": "Probleme despre reacții redox",
+        "nota": "9"
+      },
+      {
+        "disciplina": "Engleză",
+        "tema": "Eseu - My Future Career",
+        "nota": "10"
+      }
+    ],
+    "2025-05-23": [
+      {
+        "disciplina": "Informatică",
+        "tema": "Algoritmi recursivi",
+        "nota": "8"
+      }
+    ]
+  }
+}

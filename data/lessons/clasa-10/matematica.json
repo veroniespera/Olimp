@@ -1,0 +1,17 @@
+{
+  "Capitolul 1": {
+    "titlu": "matematica Capitolul 1 - Clasa 10",
+    "teme": [
+      {
+        "titlu": "Lecția 1 matematica 10",
+        "descriere": "Descriere pentru lecția 1 la matematica clasa 10",
+        "video": "https://youtube.com/watch?v=vid10m1"
+      },
+      {
+        "titlu": "Lecția 2 matematica 10",
+        "descriere": "Descriere pentru lecția 2 la matematica clasa 10",
+        "video": "https://youtube.com/watch?v=vid10m2"
+      }
+    ]
+  }
+}

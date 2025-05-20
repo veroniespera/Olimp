@@ -1,0 +1,17 @@
+{
+  "Capitolul 1": {
+    "titlu": "romana Capitolul 1 - Clasa 12",
+    "teme": [
+      {
+        "titlu": "Lecția 1 romana 12",
+        "descriere": "Descriere pentru lecția 1 la romana clasa 12",
+        "video": "https://youtube.com/watch?v=vid12r1"
+      },
+      {
+        "titlu": "Lecția 2 romana 12",
+        "descriere": "Descriere pentru lecția 2 la romana clasa 12",
+        "video": "https://youtube.com/watch?v=vid12r2"
+      }
+    ]
+  }
+}

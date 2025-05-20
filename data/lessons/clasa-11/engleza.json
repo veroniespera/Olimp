@@ -1,0 +1,17 @@
+{
+  "Capitolul 1": {
+    "titlu": "engleza Capitolul 1 - Clasa 11",
+    "teme": [
+      {
+        "titlu": "Lecția 1 engleza 11",
+        "descriere": "Descriere pentru lecția 1 la engleza clasa 11",
+        "video": "https://youtube.com/watch?v=vid11e1"
+      },
+      {
+        "titlu": "Lecția 2 engleza 11",
+        "descriere": "Descriere pentru lecția 2 la engleza clasa 11",
+        "video": "https://youtube.com/watch?v=vid11e2"
+      }
+    ]
+  }
+}

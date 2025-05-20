@@ -1,0 +1,17 @@
+{
+  "Capitolul 1": {
+    "titlu": "engleza Capitolul 1 - Clasa 8",
+    "teme": [
+      {
+        "titlu": "Lecția 1 engleza 8",
+        "descriere": "Descriere pentru lecția 1 la engleza clasa 8",
+        "video": "https://youtube.com/watch?v=vid8e1"
+      },
+      {
+        "titlu": "Lecția 2 engleza 8",
+        "descriere": "Descriere pentru lecția 2 la engleza clasa 8",
+        "video": "https://youtube.com/watch?v=vid8e2"
+      }
+    ]
+  }
+}

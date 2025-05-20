@@ -1,0 +1,17 @@
+{
+  "Capitolul 1": {
+    "titlu": "engleza Capitolul 1 - Clasa 7",
+    "teme": [
+      {
+        "titlu": "Lecția 1 engleza 7",
+        "descriere": "Descriere pentru lecția 1 la engleza clasa 7",
+        "video": "https://youtube.com/watch?v=vid7e1"
+      },
+      {
+        "titlu": "Lecția 2 engleza 7",
+        "descriere": "Descriere pentru lecția 2 la engleza clasa 7",
+        "video": "https://youtube.com/watch?v=vid7e2"
+      }
+    ]
+  }
+}

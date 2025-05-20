@@ -1,0 +1,27 @@
+{
+  "Capitolul 1": {
+    "titlu": "Funcții liniare",
+    "teme": [
+      {
+        "titlu": "Introducere în funcții",
+        "descriere": "Noțiuni de bază",
+        "video": "https://youtube.com/abc123"
+      },
+      {
+        "titlu": "Reprezentarea grafică",
+        "descriere": "Cum desenăm funcțiile liniare",
+        "video": "https://youtube.com/xyz456"
+      }
+    ]
+  },
+  "Capitolul 2": {
+    "titlu": "Inecuatii",
+    "teme": [
+      {
+        "titlu": "Inecuatii simple",
+        "descriere": "Exerciții rezolvate",
+        "video": "https://youtube.com/example"
+      }
+    ]
+  }
+}

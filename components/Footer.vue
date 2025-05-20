@@ -26,11 +26,6 @@
                   >Prezentare Generală</a
                 >
               </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >Istorie</a
-                >
-              </li>
             </ul>
           </div>
           <div>
@@ -47,7 +42,6 @@
               </li>
             </ul>
           </div>
-    
         </div>
       </div>
       <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />

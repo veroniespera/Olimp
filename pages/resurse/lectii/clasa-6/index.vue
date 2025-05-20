@@ -21,7 +21,7 @@ import { ref, onMounted } from 'vue'
 const subjects = ref([])
 
 onMounted(async () => {
-  const files = await import.meta.glob(`~/data/lessons/clasa-6/*.json`)
+  const files = await import.meta.glob(`~/server/data/lessons/clasa-6/*.json`)
   subjects.value = Object.keys(files).map(path => {
     const name = path.split('/').pop().replace('.json', '')
     return name.charAt(0).toUpperCase() + name.slice(1)

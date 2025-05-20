@@ -66,13 +66,6 @@
                 >Echipa Profesională</NuxtLink
               >
             </li>
-            <li>
-              <NuxtLink
-                to="/despre/istorie"
-                class="block px-4 py-2 hover:bg-gray-100"
-                >Istorie</NuxtLink
-              >
-            </li>
           </ul>
         </li>
         <li class="h-10 min-w-10 flex">
@@ -147,7 +140,6 @@
           <li>
             <NuxtLink to="/despre/echipa">Echipa Profesională</NuxtLink>
           </li>
-          <li><NuxtLink to="/despre/istorie">Istorie</NuxtLink></li>
         </ul>
       </li>
       <li><NuxtLink to="/noutati">Noutăți</NuxtLink></li>

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { NuxtLink } from "#components";
+</script>
+
 <template>
   <footer class="bg-slate-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 pb-6 pt-10 lg:py-8">
@@ -22,8 +26,8 @@
             </h2>
             <ul class="text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="https://flowbite.com/" class="hover:underline"
-                  >Prezentare Generală</a
+                <NuxtLink to="/despre/prezentare" class="hover:underline"
+                  >Prezentare Generală</NuxtLink
                 >
               </li>
             </ul>
@@ -34,10 +38,10 @@
             </h2>
             <ul class="text-gray-400 font-medium">
               <li class="mb-4">
-                <a
-                  href="https://github.com/themesberg/flowbite"
+                <NuxtLink
+                  to="https://www.facebook.com/liceuolymp.costesti"
                   class="hover:underline"
-                  >Facebook</a
+                  >Facebook</NuxtLink
                 >
               </li>
             </ul>

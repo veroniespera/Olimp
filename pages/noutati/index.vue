@@ -1,10 +1,10 @@
 <template>
-  <div class="mx-auto p-5 sm:p-8 md:p-12 lg:p-16 bg-white">
+  <div :class="['mx-auto p-5 sm:p-8 md:p-12 lg:p-16 bg-white transition-all duration-700 ease-out', loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4']">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
-      <div class="lg:col-span-5 w-full">
+      <div class="col-span-1 md:col-span-12 lg:col-span-5 w-full">
         <NuxtLink to="/noutati/news1">
           <div
-            class="bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)] h-48 sm:h-64 md:h-80 lg:h-[300px]"
+            class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
           ></div>
         </NuxtLink>
         <div
@@ -23,30 +23,31 @@
               >Lansarea noului laborator de informatică</NuxtLink
             >
             <p class="text-gray-700 text-base mt-2">
-              Elevii au participat la deschiderea oficială a noului laborator dotat cu echipamente moderne.
+              Elevii au participat la deschiderea oficială a noului laborator
+              dotat cu echipamente moderne.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-5 w-full">
-        <div class="">
+      <div class="lg:col-span-7 grid grid-cols-1  lg:grid-cols-3 gap-5 w-full">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
-          </NuxtLink>
-          <NuxtLink
-            to="/noutati/news1"
-            class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
-            >Deschiderea anului școlar 2024–2025</NuxtLink
+            <div
+              class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+            >
+              Deschiderea anului școlar 2024–2025
+            </div></NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -56,10 +57,10 @@
             >Olimpiada județeană de matematică</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -69,10 +70,10 @@
             >Ziua sportului în curtea liceului</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -82,10 +83,10 @@
             >Proiecte ecologice desfășurate de elevi</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -95,10 +96,10 @@
             >Vizită la Muzeul Național de Istorie</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -109,11 +110,11 @@
           >
         </div>
       </div>
-      <div class="sm:col-span-12 grid grid-cols-2 lg:grid-cols-3 gap-5">
-        <div class="">
+      <div class="sm:col-span-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -123,10 +124,10 @@
             >Atelier de robotică pentru clasele primare</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -136,10 +137,10 @@
             >Deschiderea anului școlar 2024–2025</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -149,10 +150,10 @@
             >Olimpiada județeană de matematică</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -162,10 +163,10 @@
             >Ziua sportului în curtea liceului</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -175,10 +176,10 @@
             >Proiecte ecologice desfășurate de elevi</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -188,10 +189,10 @@
             >Vizită la Muzeul Național de Istorie</NuxtLink
           >
         </div>
-        <div class="">
+        <div class="transition duration-700 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
           <NuxtLink to="/noutati/news1">
             <div
-              class="h-40 bg-cover text-center overflow-hidden bg-[url(/public/content/header.jpg)]"
+              class="w-full aspect-[4/3] bg-cover bg-center overflow-hidden bg-[url(/public/content/header.jpg)]"
               title="Woman holding a mug"
             ></div>
           </NuxtLink>
@@ -205,3 +206,13 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+const loaded = ref(false)
+onMounted(() => {
+  requestAnimationFrame(() => {
+    loaded.value = true
+  })
+})
+</script>

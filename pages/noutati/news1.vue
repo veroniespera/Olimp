@@ -10,18 +10,21 @@
               <img
                 class="mr-4 w-16 h-16 rounded-full"
                 src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
-                alt="Jese Leos"
+                alt="Bivol Ion"
               />
               <div>
-                <a href="#" rel="author" class="text-xl font-bold text-sky-950"
-                  >Jese Leos</a
+                <NuxtLink
+                  to="#"
+                  rel="author"
+                  class="text-xl font-bold text-sky-950"
+                  >Bivol Ion</NuxtLink
                 >
                 <p class="text-base text-gray-500">
-                  Graphic Designer, educator & CEO Flowbite
+                  Elev, clasa 11-a
                 </p>
                 <p class="text-base text-gray-500">
                   <time pubdate datetime="2022-02-08" title="February 8th, 2022"
-                    >Feb. 8, 2022</time
+                    >Mar. 10, 2025</time
                   >
                 </p>
               </div>
@@ -30,27 +33,27 @@
           <h1
             class="mb-4 text-3xl font-extrabold leading-tight text-sky-950 lg:mb-6 lg:text-4xl"
           >
-            Best practices for successful prototypes
+            Lansarea noului laborator de informatică
           </h1>
         </header>
 
         <p class="lead">
-          Flowbite is an open-source library of UI components built with the
-          utility-first classes from Tailwind CSS. It also includes interactive
-          elements such as dropdowns, modals, datepickers.
+          Pe data de 8 februarie a avut loc inaugurarea noului laborator de
+          informatică al Liceului Teoretic Olimp.
         </p>
         <p>
-          Before going digital, you might benefit from scribbling down some
-          ideas in a sketchbook. This way, you can think things through before
-          committing to an actual design project.
+          Evenimentul a fost marcat de participarea profesorilor, elevilor și
+          invitaților speciali din domeniul IT. Laboratorul este dotat cu
+          echipamente moderne ce vor permite desfășurarea orelor de informatică
+          într-un mod interactiv și eficient.
         </p>
         <p>
-          But then I found a
-          <a href="https://flowbite.com"
-            >component library based on Tailwind CSS called Flowbite</a
-          >. It comes with the most commonly used UI components, such as
-          buttons, navigation bars, cards, form elements, and more which are
-          conveniently built with the utility classes from Tailwind CSS.
+          Investiția în acest laborator reflectă angajamentul instituției față
+          de educația digitală și pregătirea elevilor pentru carierele
+          viitorului.
+          <NuxtLink to="https://ltolimp.md/resurse"
+            >Vezi detalii despre facilități</NuxtLink
+          >.
         </p>
 
         <figure class="pt-4 pb-4">
@@ -63,17 +66,6 @@
             Photo by Anonymous
           </figcaption>
         </figure>
-        <h2>Getting started with Flowbite</h2>
-        <p>
-          First of all you need to understand how Flowbite works. This library
-          is not another framework. Rather, it is a set of components based on
-          Tailwind CSS that you can just copy-paste from the documentation.
-        </p>
-        <p>
-          It also includes a JavaScript file that enables interactive
-          components, such as modals, dropdowns, and datepickers which you can
-          optionally include into your project via CDN or NPM.
-        </p>
       </article>
     </div>
   </main>

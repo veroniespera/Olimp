@@ -3,13 +3,13 @@
     <Hero>
       <template #Title>Liceul Teoretic "Olimp"</template>
       <template #Quote>
-        <p>
+        
           "Orice școală se mândrește nu cu numărul, ci cu bunul nume al elevilor
           săi!"
-        </p>
+        
       </template>
       <template #Author>
-        <p>- Pitagora</p>
+       - Pitagora
       </template>
       <template #ButtonName> Despre noi</template>
     </Hero>

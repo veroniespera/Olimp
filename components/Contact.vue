@@ -1,7 +1,7 @@
 <template>
-  <div class="grid md:grid-cols-2 min-h-[32rem] lg:px-40 px-5 gap-5">
+  <div class="grid md:grid-cols-2 min-h-[32rem] lg:px-40 px-4 gap-5 overflow-hidden max-w-full">
     <div
-      class="md:px-10 lg:rounded-l-3xl rounded-3xl bg-gradient-to-br from-slate-700 to-slate-500 text-sky-100 p-15 text-base sm:text-lg md:text-xl flex flex-col gap-6 justify-center shadow-xl w-full"
+      class="md:px-10 lg:rounded-l-3xl rounded-3xl bg-gradient-to-br from-slate-700 to-slate-500 text-sky-100 p-6 md:p-10 text-base sm:text-lg md:text-xl flex flex-col gap-6 justify-center shadow-xl w-full py-12"
     >
       <h2 class="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">
         Informații de contact
@@ -94,7 +94,7 @@
     </div>
 
     <div
-      class="lg:rounded-r-3xl rounded-3xl flex justify-center bg-gradient-to-br from-sky-300 to-sky-700 p-15 md:px-6 shadow-xl"
+      class="lg:rounded-r-3xl rounded-3xl flex justify-center bg-gradient-to-br from-sky-300 to-sky-700 p-6 md:p-10 md:px-6 shadow-xl"
     >
       <fieldset class="fieldset bg-transparent rounded-box p-5 gap-3">
         <legend

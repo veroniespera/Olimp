@@ -96,7 +96,7 @@
     <div
       class="lg:rounded-r-3xl rounded-3xl flex justify-center bg-gradient-to-br from-sky-300 to-sky-700 p-15 md:px-6 shadow-xl"
     >
-      <fieldset class="fieldset bg-transparent rounded-box w-full p-5 gap-3">
+      <fieldset class="fieldset bg-transparent rounded-box p-5 gap-3">
         <legend
           class="whitespace-nowrap text-3xl sm:text-3xl md:text-3xl font-bold text-center px-4 text-white"
         >
@@ -110,7 +110,7 @@
             <label class="font-medium text-sky-100">Nume</label>
             <input
               type="name"
-              class="input w-full bg-white/90 text-slate-800 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-300 focus:outline-none transition"
+              class="input bg-white/90 text-slate-800 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-300 focus:outline-none transition"
               placeholder="Numele tău"
             />
           </div>
@@ -119,7 +119,7 @@
             <label class="font-medium text-sky-100">Email</label>
             <input
               type="email"
-              class="input w-full bg-white/90 text-slate-800 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-300 focus:outline-none transition"
+              class="input bg-white/90 text-slate-800 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-300 focus:outline-none transition"
               placeholder="exempluemail@gmail.com"
             />
           </div>
@@ -128,14 +128,14 @@
             <label class="font-medium text-sky-100">Mesaj</label>
             <textarea
               type="message"
-              class="input w-full p-3 bg-white/90 text-slate-800 rounded-lg focus:ring-2 focus:ring-sky-300 focus:outline-none transition min-h-[70px]"
+              class="input p-3 bg-white/90 text-slate-800 rounded-lg focus:ring-2 focus:ring-sky-300 focus:outline-none transition min-h-[70px]"
               placeholder="Mesajul tău"
             ></textarea>
           </div>
         </div>
 
         <button
-          class="btn mt-6 w-full bg-slate-700 hover:bg-slate-600 text-white border-0 shadow-lg py-3 text-base sm:text-lg md:text-xl rounded-lg transition transform hover:scale-[1.01]"
+          class="btn mt-6 bg-slate-700 hover:bg-slate-600 text-white border-0 shadow-lg py-3 text-base sm:text-lg md:text-xl rounded-lg transition transform hover:scale-[1.01]"
         >
           Trimite Mesaj
           <svg

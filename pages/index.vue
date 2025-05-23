@@ -16,5 +16,6 @@
     <div>
       <News></News>
     </div>
+    <Contact></Contact>
   </div>
 </template>

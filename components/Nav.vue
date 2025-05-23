@@ -1,16 +1,10 @@
 <template>
   <nav class="bg-white shadow-sm text-sky-950 px-4 py-3 z-1 sticky top-0">
     <div class="max-w-screen-xl mx-auto flex justify-between items-center">
-      <!-- Logo -->
-      <NuxtLink to="/" class="flex items-center gap-3">
-        <img src="/public/content/logo.png" alt="Logo" class="w-10 h-auto" />
-        <span class="text-3xl font-black text-sky-950">Olimp</span>
-      </NuxtLink>
-
       <!-- Hamburger button for mobile -->
       <button
         @click="isOpen = !isOpen"
-        class="lg:hidden p-2 text-sky-950 focus:outline-none"
+        class="lg:hidden p-2 text-sky-950 focus:outline-none order-1"
       >
         <svg
           class="h-6 w-6"
@@ -26,6 +20,20 @@
           />
         </svg>
       </button>
+      <!-- Logo -->
+      <NuxtLink to="/" class="flex items-center gap-3 order-2 lg:order-none">
+        <img src="/public/content/logo.png" alt="Logo" class="w-10 h-auto" />
+        <span class="text-3xl font-black text-sky-950">Olimp</span>
+      </NuxtLink>
+
+      <NuxtLink class="lg:hidden flex items-center gap-2 order-3" to="/profil">
+        <img
+          width="32"
+          height="32"
+          src="https://img.icons8.com/fluency-systems-filled/48/user-male-circle.png"
+          alt="user-male-circle"
+        />
+      </NuxtLink>
 
       <!-- Desktop Menu -->
       <ul
@@ -115,15 +123,15 @@
           </ul>
         </li>
         <li class="h-10 min-w-10 -mt-2">
-          <div class="flex items-center gap-2">
-            <NuxtLink to="/profil">Profil</NuxtLink>
+          <NuxtLink class="flex items-center gap-2" to="/profil"
+            >Profil
             <img
               width="32"
               height="32"
               src="https://img.icons8.com/fluency-systems-filled/48/user-male-circle.png"
               alt="user-male-circle"
             />
-          </div>
+          </NuxtLink>
         </li>
       </ul>
     </div>

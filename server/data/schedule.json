@@ -28,32 +28,32 @@
     "Vineri": ["Citire", "Educație plastică", "Joc și mișcare"]
   },
   "Clasa 5": {
-    "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Luni": ["Română", "Matematică", "Istorie", "Biologie", "Engleză"],
+    "Marți": ["Geografie", "Educație tehnologică", "Română", "Educație muzicală", "Matematică"],
+    "Miercuri": ["Fizică", "Chimie", "Română", "Educație civică", "Engleză"],
+    "Joi": ["Matematică", "Informatică", "Istorie", "Educație fizică", "Română"],
+    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Consiliere"]
   },
   "Clasa 6": {
     "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Marți": ["Engleză", "Educație tehnologică", "Română", "Educație muzicală", "Matematică"],
+    "Miercuri": ["Fizică", "Chimie", "Educație civică", "Română", "Engleză"],
+    "Joi": ["Matematică", "Informatică", "Istorie", "Educație fizică", "Română"],
+    "Vineri": ["Biologie", "Matematică", "Educație plastică", "Consiliere", "Română"]
   },
   "Clasa 7": {
-    "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Luni": ["Română", "Matematică", "Fizică", "Geografie", "Educație civică"],
+    "Marți": ["Chimie", "Engleză", "Istorie", "Educație fizică", "Matematică"],
+    "Miercuri": ["Română", "Biologie", "Educație tehnologică", "Informatică", "Muzică"],
+    "Joi": ["Matematică", "Română", "Istorie", "Engleză", "Educație plastică"],
+    "Vineri": ["Fizică", "Matematică", "Consiliere", "Română", "Geografie"]
   },
   "Clasa 8": {
-    "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Luni": ["Română", "Matematică", "Fizică", "Chimie", "Engleză"],
+    "Marți": ["Istorie", "Biologie", "Geografie", "Română", "Educație civică"],
+    "Miercuri": ["Matematică", "Educație tehnologică", "Română", "Educație fizică", "Informatică"],
+    "Joi": ["Chimie", "Matematică", "Engleză", "Muzică", "Consiliere"],
+    "Vineri": ["Română", "Educație plastică", "Matematică", "Fizică", "Geografie"]
   },
   "Clasa 9": {
     "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
@@ -63,24 +63,24 @@
     "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
   },
   "Clasa 10": {
-    "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Luni": ["Matematică", "Română", "Fizică", "Engleză", "Biologie"],
+    "Marți": ["Biologie", "Geografie", "Română", "Educație fizică", "Muzică"],
+    "Miercuri": ["Matematică", "Română", "Chimie", "Fizică", "Engleză"],
+    "Joi": ["Istorie", "Matematică", "Sport", "Română", "Geografie"],
+    "Vineri": ["Română", "Educație plastică", "Chimie", "Matematică", "Biologie"]
   },
   "Clasa 11": {
-    "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Luni": ["Fizică", "Română", "Biologie", "Geografie", "Matematică"],
+    "Marți": ["Educație fizică", "Română", "Matematică", "Engleză", "Muzică"],
+    "Miercuri": ["Română", "Biologie", "Geografie", "Fizică", "Chimie"],
+    "Joi": ["Engleză", "Matematică", "Istorie", "Română", "Sport"],
+    "Vineri": ["Chimie", "Educație plastică", "Matematică", "Română", "Biologie"]
   },
   "Clasa 12": {
-    "Luni": ["Română", "Matematică", "Biologie", "Istorie", "Geografie"],
-    "Marți": ["Engleză", "Educație fizică", "Română", "Muzică", "Matematică"],
-    "Miercuri": ["Chimie", "Fizică", "Română", "Biologie", "Geografie"],
-    "Joi": ["Matematică", "Engleză", "Istorie", "Română", "Sport"],
-    "Vineri": ["Biologie", "Matematică", "Română", "Educație plastică", "Chimie"]
+    "Luni": ["Matematică", "Română", "Geografie", "Istorie", "Biologie"],
+    "Marți": ["Română", "Engleză", "Muzică", "Educație fizică", "Matematică"],
+    "Miercuri": ["Biologie", "Fizică", "Chimie", "Română", "Geografie"],
+    "Joi": ["Română", "Istorie", "Engleză", "Sport", "Matematică"],
+    "Vineri": ["Matematică", "Română", "Biologie", "Chimie", "Educație plastică"]
   }
 }

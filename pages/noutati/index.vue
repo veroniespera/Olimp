@@ -108,7 +108,7 @@
           <NuxtLink
             to="/noutati/news1"
             class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
-            >Vizită la Muzeul Național de Istorie</NuxtLink
+            >Sărbători de suflet, sărbători de dor...</NuxtLink
           >
         </div>
         <div

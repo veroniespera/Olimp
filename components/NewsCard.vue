@@ -1,7 +1,7 @@
 <template>
   <article class="max-w-xs relative">
     <a href="#">
-      <img :src="img" alt="News" class="mb-5 rounded-lg" />
+      <img :src="img" alt="News" class="mb-5 rounded-lg aspect-3/2 object-cover" />
     </a>
     <h2 class="mb-2 text-xl font-bold leading-tight text-slate-900">
       <a href="#"> <slot name="Titlu" /></a>

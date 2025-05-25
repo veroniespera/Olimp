@@ -23,24 +23,24 @@
 <script setup>
 const news = [
   {
-    title: "Ziua Școlii",
-    text: "Am sărbătorit împreună tradițiile și valorile liceului nostru prin activități culturale și artistice.",
-    img: "/content/news1.jpg",
+    title: "Performanțele continuă!",
+    text: "Suntem mândri de rezultatele la Olimpiada Republicană de Economie a elevilor!",
+    img: "/content/newsPhotos/news1.jpg",
   },
   {
-    title: "Concursul de Matematică",
-    text: "Elevii noștri au participat la etapa națională și au obținut rezultate remarcabile.",
-    img: "/content/news1.jpg",
+    title: "Gândește global, acționează local!",
+    text: "LOCUL II,  în cadrul concursului raional ”Gândește global, acționează local”! ",
+    img: "/content/newsPhotos/news2.jpg",
   },
   {
-    title: "Campanie de Ecologizare",
-    text: "Elevii claselor a IX-a și a X-a au participat activ la curățarea parcului din apropierea școlii.",
-    img: "/content/news1.jpg",
+    title: "Clubul de Robotică Quasar Robotics ",
+    text: "Am adus inovația prin dialogul deschis prin care s-a vorbit despre cum se construiește și cum se programează un robot.",
+    img: "/content/newsPhotos/news3.jpg",
   },
   {
-    title: "Vizită la Universitate",
-    text: "Clasa a XII-a a vizitat Universitatea Tehnică pentru a explora oportunitățile academice.",
-    img: "/content/news1.jpg",
+    title: "Mândru că sunt PROFESOR",
+    text: "Astăzi efortul dlui a fost recunoscut în întreaga republică, obținând Diploma de onoare a Ministerului Educației și Cercetării.",
+    img: "/content/newsPhotos/news4.jpg",
   },
 ];
 </script>

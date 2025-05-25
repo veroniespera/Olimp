@@ -25,7 +25,7 @@
             <p class="text-gray-700 text-base font-normal leading-relaxed">
               Liceul Teoretic „Olimp” este o instituție publică de învățământ
               preuniversitar, dedicată formării academice și dezvoltării
-              personale a elevilor din ciclul gimnazial și liceal. Situat într-o
+              personale a elevilor din ciclul primar, gimnazial și liceal. Situat într-o
               zonă accesibilă, liceul oferă un mediu educațional sigur, modern
               și motivant, în care elevii sunt încurajați să își valorifice
               potențialul.
@@ -79,7 +79,7 @@
                     <h4
                       class="text-white text-2xl font-bold font-manrope leading-9"
                     >
-                      Peste 33 de ani
+                      Peste 47 de ani
                     </h4>
                     <p
                       class="text-gray-300 text-base font-normal leading-relaxed"
@@ -93,7 +93,7 @@
                     <h4
                       class="text-white text-2xl font-bold font-manrope leading-9"
                     >
-                      125+ inițiative educaționale
+                      100+ proiecte educaționale
                     </h4>
                     <p
                       class="text-gray-300 text-base font-normal leading-relaxed"
@@ -125,7 +125,7 @@
                     <h4
                       class="text-white text-2xl font-bold font-manrope leading-9"
                     >
-                      99% elevi și părinți mulțumiți
+                      Elevi și părinți mulțumiți
                     </h4>
                     <p
                       class="text-gray-300 text-base font-normal leading-relaxed"

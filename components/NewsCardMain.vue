@@ -2,12 +2,12 @@
   <div>
     <NuxtLink :to="path">
       <div
-        class="h-40 bg-cover text-center overflow-hidden rounded"
+        class="h-40 bg-cover text-center overflow-hidden rounded aspect-3/2 object-cover"
         :style="{ backgroundImage: `url(${bg})` }"
         :title="title"
       ></div>
       <div
-        class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out"
+        class="text-sky-950 inline-block font-semibold text-md my-2 hover:text-sky-600 transition duration-500 ease-in-out px-2"
       >
         <slot />
       </div>

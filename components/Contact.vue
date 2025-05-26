@@ -1,7 +1,9 @@
 <template>
-  <div class="grid md:grid-cols-2 min-h-[32rem] lg:px-40 px-4 gap-5 overflow-hidden max-w-full">
+  <div
+    class="grid md:grid-cols-2 min-h-[32rem] lg:px-40 py-10 px-4 gap-5 overflow-hidden max-w-full"
+  >
     <div
-      class="md:px-10 lg:rounded-l-3xl rounded-3xl bg-gradient-to-br from-slate-700 to-slate-500 text-sky-100 p-6 md:p-10 text-base sm:text-lg md:text-xl flex flex-col gap-6 justify-center shadow-xl w-full py-12"
+      class="md:px-12 lg:rounded-l-3xl rounded-3xl bg-gradient-to-br from-slate-700 to-slate-500 text-sky-100 p-6 md:p-10 text-base sm:text-lg md:text-xl flex flex-col gap-6 justify-center shadow-xl w-full py-10"
     >
       <h2 class="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">
         Informații de contact
@@ -92,67 +94,6 @@
         </li>
       </ul>
     </div>
-
-    <div
-      class="lg:rounded-r-3xl rounded-3xl flex justify-center bg-gradient-to-br from-sky-300 to-sky-700 p-6 md:p-10 md:px-6 shadow-xl"
-    >
-      <fieldset class="fieldset bg-transparent rounded-box p-5 gap-3">
-        <legend
-          class="whitespace-nowrap text-3xl sm:text-3xl md:text-3xl font-bold text-center px-4 text-white"
-        >
-          Contactează-ne!
-        </legend>
-
-        <div
-          class="flex flex-col gap-4 text-white text-base sm:text-lg md:text-xl"
-        >
-          <div class="space-y-1">
-            <label class="font-medium text-sky-100">Nume</label>
-            <input
-              type="name"
-              class="input bg-white/90 text-slate-800 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-300 focus:outline-none transition"
-              placeholder="Numele tău"
-            />
-          </div>
-
-          <div class="space-y-1">
-            <label class="font-medium text-sky-100">Email</label>
-            <input
-              type="email"
-              class="input bg-white/90 text-slate-800 rounded-lg px-4 py-3 focus:ring-2 focus:ring-sky-300 focus:outline-none transition"
-              placeholder="exempluemail@gmail.com"
-            />
-          </div>
-
-          <div class="space-y-1">
-            <label class="font-medium text-sky-100">Mesaj</label>
-            <textarea
-              type="message"
-              class="input p-3 bg-white/90 text-slate-800 rounded-lg focus:ring-2 focus:ring-sky-300 focus:outline-none transition min-h-[70px]"
-              placeholder="Mesajul tău"
-            ></textarea>
-          </div>
-        </div>
-
-        <button
-          class="btn mt-6 bg-slate-700 hover:bg-slate-600 text-white border-0 shadow-lg py-3 text-base sm:text-lg md:text-xl rounded-lg transition transform hover:scale-[1.01]"
-        >
-          Trimite Mesaj
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 ml-2"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </button>
-      </fieldset>
-    </div>
+    <Form></Form>
   </div>
-  <div class="h-20"></div>
 </template>

@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
- 
 
   modules: [
     "@nuxt/content",
@@ -16,5 +15,9 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/icon",
     "@nuxt/image",
+    "@nuxt/ui",
   ],
+  colorMode: {
+    preference: "light",
+  },
 });
